@@ -1,0 +1,8 @@
+2022-12-26 23:20:46 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE CLIENTE [*]CLIENTE"
+Syntax error in SQL statement "SELECT * FROM CLIENTE CLIENTE [*]CLIENTE"; SQL statement:
+SELECT * FROM CLIENTE CLIENTE CLIENTE [42000-214]
+2022-12-26 23:20:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "SELECT * FROM CLIENTE CLIENTE [*]CLIENTE CLIENTE"
+Syntax error in SQL statement "SELECT * FROM CLIENTE CLIENTE [*]CLIENTE CLIENTE"; SQL statement:
+SELECT * FROM CLIENTE CLIENTE CLIENTE CLIENTE [42000-214]
