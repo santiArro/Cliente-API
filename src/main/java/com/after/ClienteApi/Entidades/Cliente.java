@@ -2,6 +2,8 @@ package com.after.ClienteApi.Entidades;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "CLIENTE")
 public class Cliente {
@@ -21,6 +23,9 @@ public class Cliente {
 
     @Column(name = "FECHA DE NACIMIENTO")
     private String fechaDeNacimiento;
+
+    @OneToMany(mappedBy = "cliente")
+    private List<Factura> facturas;
 
 //Creamos  de los Set y get
 

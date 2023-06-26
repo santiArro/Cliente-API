@@ -1,10 +1,8 @@
 package com.after.ClienteApi.Entidades;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -24,6 +22,8 @@ public class Producto {
     private Double precioVenta;
 
     private Integer cantidadProductos;
+
+
 
     public Integer getIdProducto() {
         return idProducto;
